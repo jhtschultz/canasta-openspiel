@@ -1,0 +1,103 @@
+{
+  "fixture_name": "frozen_pile",
+  "game_phase": "playing",
+  "turn_phase": "draw",
+  "current_player": 0,
+  "is_terminal": false,
+  "pile_frozen": true,
+  "hands": {
+    "player_0": {
+      "team": 0,
+      "card_count": 7,
+      "cards": [
+        "A of clubs",
+        "A of diamonds",
+        "K of clubs",
+        "K of diamonds",
+        "Q of clubs",
+        "Q of diamonds",
+        "J of clubs"
+      ],
+      "wild_count": 0
+    },
+    "player_1": {
+      "team": 1,
+      "card_count": 7,
+      "cards": [
+        "8 of clubs",
+        "8 of diamonds",
+        "7 of clubs",
+        "7 of diamonds",
+        "6 of clubs",
+        "6 of diamonds",
+        "5 of clubs"
+      ],
+      "wild_count": 0
+    },
+    "player_2": {
+      "team": 0,
+      "card_count": 7,
+      "cards": [
+        "A of spades",
+        "K of hearts",
+        "K of spades",
+        "Q of hearts",
+        "Q of spades",
+        "J of hearts",
+        "J of spades"
+      ],
+      "wild_count": 0
+    },
+    "player_3": {
+      "team": 1,
+      "card_count": 7,
+      "cards": [
+        "8 of hearts",
+        "8 of spades",
+        "7 of hearts",
+        "7 of spades",
+        "6 of hearts",
+        "6 of spades",
+        "5 of hearts"
+      ],
+      "wild_count": 0
+    }
+  },
+  "melds": {
+    "team_0": [],
+    "team_1": []
+  },
+  "red_threes": {
+    "team_0": {
+      "count": 0,
+      "cards": []
+    },
+    "team_1": {
+      "count": 0,
+      "cards": []
+    }
+  },
+  "discard_pile": {
+    "count": 4,
+    "top_card": "9 of clubs",
+    "cards": [
+      "10 of clubs",
+      "10 of diamonds",
+      "2 of spades",
+      "9 of clubs"
+    ]
+  },
+  "stock_count": 76,
+  "canastas": {
+    "team_0": 0,
+    "team_1": 0
+  },
+  "initial_meld_made": {
+    "team_0": false,
+    "team_1": false
+  },
+  "team_scores": {
+    "team_0": 0,
+    "team_1": 0
+  }
+}

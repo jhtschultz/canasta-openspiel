@@ -1,0 +1,131 @@
+{
+  "fixture_name": "terminal",
+  "game_phase": "terminal",
+  "turn_phase": "draw",
+  "current_player": "TERMINAL",
+  "is_terminal": true,
+  "pile_frozen": false,
+  "hands": {
+    "player_0": {
+      "team": 0,
+      "card_count": 0,
+      "cards": [],
+      "wild_count": 0
+    },
+    "player_1": {
+      "team": 1,
+      "card_count": 3,
+      "cards": [
+        "7 of clubs",
+        "7 of diamonds",
+        "6 of clubs"
+      ],
+      "wild_count": 0
+    },
+    "player_2": {
+      "team": 0,
+      "card_count": 0,
+      "cards": [],
+      "wild_count": 0
+    },
+    "player_3": {
+      "team": 1,
+      "card_count": 2,
+      "cards": [
+        "5 of hearts",
+        "5 of spades"
+      ],
+      "wild_count": 0
+    }
+  },
+  "melds": {
+    "team_0": [
+      {
+        "rank": "A",
+        "natural_cards": [
+          "A of clubs",
+          "A of diamonds",
+          "A of hearts",
+          "A of spades",
+          "A of clubs",
+          "A of diamonds",
+          "A of hearts"
+        ],
+        "wild_cards": [],
+        "total_cards": 7,
+        "is_canasta": true,
+        "is_natural_canasta": true,
+        "is_mixed_canasta": false
+      },
+      {
+        "rank": "Q",
+        "natural_cards": [
+          "Q of clubs",
+          "Q of diamonds",
+          "Q of hearts"
+        ],
+        "wild_cards": [
+          "2 of clubs"
+        ],
+        "total_cards": 4,
+        "is_canasta": false,
+        "is_natural_canasta": false,
+        "is_mixed_canasta": false
+      }
+    ],
+    "team_1": [
+      {
+        "rank": "8",
+        "natural_cards": [
+          "8 of clubs",
+          "8 of diamonds",
+          "8 of hearts",
+          "8 of spades",
+          "8 of clubs"
+        ],
+        "wild_cards": [
+          "2 of diamonds",
+          "2 of hearts"
+        ],
+        "total_cards": 7,
+        "is_canasta": true,
+        "is_natural_canasta": false,
+        "is_mixed_canasta": true
+      }
+    ]
+  },
+  "red_threes": {
+    "team_0": {
+      "count": 1,
+      "cards": [
+        "3 of hearts"
+      ]
+    },
+    "team_1": {
+      "count": 1,
+      "cards": [
+        "3 of diamonds"
+      ]
+    }
+  },
+  "discard_pile": {
+    "count": 1,
+    "top_card": "10 of clubs",
+    "cards": [
+      "10 of clubs"
+    ]
+  },
+  "stock_count": 0,
+  "canastas": {
+    "team_0": 1,
+    "team_1": 1
+  },
+  "initial_meld_made": {
+    "team_0": true,
+    "team_1": true
+  },
+  "team_scores": {
+    "team_0": 1250,
+    "team_1": 680
+  }
+}
